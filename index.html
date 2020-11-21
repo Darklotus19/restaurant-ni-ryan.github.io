@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Food</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<script src="code.js"> </script>
+	<body>
+		<div class = "nav-bar w3-bar animate__animated animate__slideInDown">
+		    <h1>"Breakfast Land"</h1>
+		    <ul>
+		        <li class = "w3-bar-item w3-button"><a href="#food">Shop</a> </li>
+		        <li class = "w3-bar-item w3-button"><a href="#payment">Payment Method</a></li>
+		    </ul>
+		</div>
+		
+ <div class="menus">
+<img id="food" src="https://www.graphicsprings.com/filestorage/stencils/c78dca3cef19a66e41ca112ebb3ae706.png?width=500&height=500"><img>
+<button onclick="show1()" id="menu1" >Pizza</button>
+<button onclick="show2()" id="menu2" >Coffee</button>
+<button onclick="show3()" id="menu3" >Burger</button>
+<button onclick="show4()" id="menu4" >Pasta</button>
+
+
+<p id="f1">Pizza:</p>
+<p id="f2">Coffee:</p>
+<p id="f3">Burger:</p>
+<p id="f4">Pasta:</p>
+
+<p id="total">Total Price:</p>
+</div>
+
+
+
+ <div class="footer">
+	       <button onclick ="order()" id="order1" class="order w3-button w3-round-xxlarge"> Order now </button>
+	       <button onclick ="cancel()" id="clear1" class="clear  w3-button w3-round-xxlarge"> Cancel order </button>
+	   </div>
+<h3 id="payment">We accept COD, google pay, gcash, and paymaya for your payment</h3>
+	</body>
+</html>

@@ -1,0 +1,143 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+body{ 
+    background: url('https://perfectdailygrind.com/wp-content/uploads/2019/02/coffee-bar.jpg')
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 64px;
+}
+
+li {
+    text-align: center;
+}
+
+.nav-bar {
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    background-color:#C28800;
+    font-family: 'Lemonada';
+}
+
+#menu1 {
+    
+    width:80px; 	
+    height:40px; 
+    margin-left:10px; 	
+    
+    background:#EDC202; 
+    font-size:12px;
+    border-radius:5px 5px 5px 5px; 	
+    border-width: 1px; 
+    border-style:solid; 
+    border-color: gray; 
+    font-family: 'Lemonada';
+}
+
+#menu2 {
+    
+    width:80px; 	
+    height:40px; 
+    margin-left:10px; 
+    font-size:12px;
+    background:#EDC202; 
+    border-radius:5px 5px 5px 5px; 	
+    border-width: 1px; 
+    border-style:solid; 
+    border-color: gray; 
+    font-family: 'Lemonada';
+}
+#menu3 {
+    
+    width:80px; 	
+    height:40px; 
+    margin-left:10px; 	
+    font-size:12px;
+    background:#EDC202; 
+    border-radius:5px 5px 5px 5px; 	
+    border-width: 1px; 
+    border-style:solid; 
+    border-color: gray; 
+    font-family: 'Lemonada';
+}
+
+#menu4 {
+    
+    width:80px; 	
+    height:40px; 
+    margin-left:10px; 	
+    background:#EDC202; 
+    font-size:12px;
+    border-radius:5px 5px 5px 5px; 	
+    border-width: 1px; 
+    border-style:solid; 
+    border-color: gray; 
+    font-family: 'Lemonada';
+}
+
+#food {
+    background-color:white;
+    border-color: white;
+    border-style:solid;
+    width:400px;
+    height: 400px;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+p {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:25px;
+}
+
+.menus {
+  height: 855px;
+  width:450px;
+  margin-left:120px;
+  margin-top:30px;
+  border-color: white;
+  border-style:solid;
+  margin-bottom:10px;
+  padding:15px;
+  font-size:20px;
+}
+
+#order1 {
+    
+    width:250px; 	
+    height:40px; 
+    margin-left:60px; 	
+    background:#F5AB00; 
+    color:white; 
+    border-radius:5px 5px 5px 5px; 	
+    border-width: 1px; 
+    border-style:solid; 
+    border-color: gray; 
+    font-family: 'Lemonada';
+}
+
+#clear1 {
+    
+    width:250px; 	
+    height:40px; 
+    margin-left:60px; 	
+    background:#F5AB00; 
+    color:white; 
+    border-radius:5px 5px 5px 5px; 	
+    border-width: 1px; 
+    border-style:solid; 
+    border-color: gray; 
+    font-family: 'Lemonada';
+}
+h3 {
+    font-family: 'Xanh Mono', monospace;
+    font-size: 20px;
+    color:white;
+}
